@@ -28,6 +28,9 @@ sudo yum -y install pv
 echo "[Info] Install vim"
 sudo yum -y install vim
 
+echo "[Info] Install nano"
+sudo yum -y install nano
+
 echo "[Info] Install wget"
 sudo yum -y install wget
 
@@ -36,6 +39,9 @@ sudo yum -y install php-devel
 
 echo "[Info] install php-pear"
 sudo yum -y install php-pear
+
+echo "[Info] install php-mbstring"
+sudo yum -y install php-mbstring
 
 echo "[Info] install gcc and other for build xdebug"
 sudo yum -y install gcc gcc-c++ autoconf automake
