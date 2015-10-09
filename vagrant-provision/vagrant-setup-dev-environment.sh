@@ -46,3 +46,6 @@ sed -i 's/SELINUX=\(enforcing\|permissive\)/SELINUX=disabled/g' /etc/selinux/con
 setenforce 0
 
 service httpd restart
+
+sudo chkconfig httpd on
+sudo chkconfig mysqld on
